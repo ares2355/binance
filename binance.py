@@ -22,7 +22,8 @@ def func():
     if 100 - (last_price * 100 / current_price) == 1:
         print('ok')
         return last_price
-    return 0
+    else:
+        return 0
 
 if __name__ == '__main__':
     current_price = f()
